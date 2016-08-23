@@ -2401,10 +2401,6 @@
 
 /* List */
 
-	/*.languages {
-		display: block;
-	}*/
-
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
@@ -2462,6 +2458,10 @@
 		ul.major-icons {
 			list-style: none;
 			padding-left: 0;
+		}
+
+		ul.major-icons.languages {
+			text-align: center;
 		}
 
 			ul.major-icons li {
@@ -2878,8 +2878,12 @@
 		background-attachment: fixed,							fixed,							fixed;
 		/*background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
 		background-image: url("images/color11.png");
+		/*background-repeat: no-repeat;*/
 		background-position: top left,						center center,					center center;
 		background-size: 100%,							cover,							cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -2896,6 +2900,21 @@
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
 			color: #ffffff;
 		}
+
+		#header .profile-picture {
+			height:13rem;
+			width:13rem;
+			border-radius:50%;
+			overflow:hidden;
+			margin:auto;
+			border: 2px solid #fff;
+		}
+
+			#header .profile-picture img {
+				margin-left: -6rem;
+				width: auto;
+				height: 100%;
+			}
 
 		#header header p {
 			color: #ffffff;
