@@ -2372,7 +2372,6 @@
 		.image img {
 			border-radius: 0.75rem;
 			display: block;
-			max-height: 13.5rem;
 		}
 
 		.image.left {
@@ -2403,6 +2402,10 @@
 
 			.image.fit img {
 				width: 100%;
+			}
+
+			.image.fit.project img {
+				max-height: 15.5rem;
 			}
 
 /* List */
