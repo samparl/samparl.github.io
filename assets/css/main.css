@@ -3288,11 +3288,20 @@
 				padding: 2em;
 			}
 
-				ul.major-icons li .icon {
-					height: 7em;
-					line-height: 7em;
-					width: 7em;
-				}
+			.image.fit {
+				/*width: 50%;*/
+				margin: auto;
+			}
+
+			.image.fit.project {
+				max-width: 300px;
+			}
+
+			ul.major-icons li .icon {
+				height: 7em;
+				line-height: 7em;
+				width: 7em;
+			}
 
 		/* Main */
 
