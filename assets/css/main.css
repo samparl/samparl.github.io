@@ -2405,7 +2405,8 @@
 			}
 
 			.image.fit.project img {
-				max-height: 15.5rem;
+				max-height: 250px;
+				overflow-y: hidden;
 			}
 
 /* List */
@@ -3294,7 +3295,8 @@
 			}
 
 			.image.fit.project {
-				max-width: 300px;
+				width: 300px;
+				/*height: 200px;*/
 			}
 
 			ul.major-icons li .icon {
